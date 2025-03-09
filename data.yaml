@@ -1,0 +1,6 @@
+train: datasets/images/train
+val: datasets/images/val
+test: datasets/images/test
+
+nc: 3  # Número de clases
+names: ['RBC', 'WBC', 'Platelet']
