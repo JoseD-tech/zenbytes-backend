@@ -29,7 +29,7 @@ app = FastAPI(title="Object Detection API", description="API para detección de 
 # Configuración de CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # Orígenes permitidos
+    allow_origins=["*"],  # Orígenes permitidos
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
